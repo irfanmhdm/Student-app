@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
+
 
 const Search = () => {
   return (
     <div>
+                  <Navbar/>
 
         <div className="container">
             <div className="row">
@@ -11,7 +14,7 @@ const Search = () => {
                     <div className="row">
                         <div className="col col-12 col-sm-6">
 
-                            <label htmlFor="" className="form-label">Stuent Id</label>
+                            <label htmlFor="" className="form-label">Admission Number</label>
                             <input type="number" className="form-control" />
                         </div>
                         <div className="col col-12 g-3">

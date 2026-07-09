@@ -1,7 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const ViewStudents = () => {
   return (
+    <div>
+        <Navbar/>
+
     <div className="container mt-4">
       <h2 className="text-center mb-4">Student List</h2>
 
@@ -134,6 +138,7 @@ const ViewStudents = () => {
         </div>
 
       </div>
+    </div>
     </div>
   );
 };

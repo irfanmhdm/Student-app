@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar'
+
 
 const Delete = () => {
   return (
-    <div><div className="container">
+    <div>
+              <Navbar/>
+
+        
+        <div className="container">
                 <div className="row">
                     <div className="col col-12">
 
@@ -10,7 +16,7 @@ const Delete = () => {
                             <div className="row">
                                 <div className="col col-12 col-sm-6 col-md-6 col-lg-4">
 
-                                    <label htmlFor="" className="form-label">Product Code</label>
+                                    <label htmlFor="" className="form-label">Admission Number</label>
                                     <input type="number" className="form-control" />
 
 
