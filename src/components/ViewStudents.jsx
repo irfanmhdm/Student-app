@@ -1,144 +1,114 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 const ViewStudents = () => {
   return (
-    <div>
-        <Navbar/>
-
-    <div className="container mt-4">
-      <h2 className="text-center mb-4">Student List</h2>
-
-      <div className="row">
-
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img
-              src="https://via.placeholder.com/150"
-              className="card-img-top"
-              alt="Student"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Akhil Raj</h5>
-              <p>Admission No: ST101</p>
-              <p>Class: MCA 1</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
+    <div className="container mt-5">
+      <div className="card shadow">
+        <div className="card-header bg-secondary text-white">
+          <h3 className="mb-0 text-center">Student Details</h3>
         </div>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Neha Nair</h5>
-              <p>Admission No: ST102</p>
-              <p>Class: MCA 1</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+        <div className="card-body">
+          <div className="table-responsive">
+            <table className="table table-striped table-hover table-bordered align-middle text-center">
+              <thead className="table-dark">
+                <tr>
+                  <th>#</th>
+                  <th>Student ID</th>
+                  <th>Name</th>
+                  <th>Course</th>
+                  <th>Semester</th>
+                  <th>Department</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Rahul Krishna</h5>
-              <p>Admission No: ST103</p>
-              <p>Class: BCA 3</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>STU101</td>
+                  <td>Muhammed Irfan</td>
+                  <td>MCA</td>
+                  <td>1</td>
+                  <td>Computer Applications</td>
+                  <td>irfan101@example.com</td>
+                </tr>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Anjali Menon</h5>
-              <p>Admission No: ST104</p>
-              <p>Class: BCA 2</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+                <tr>
+                  <td>2</td>
+                  <td>STU102</td>
+                  <td>Akhil Raj</td>
+                  <td>BCA</td>
+                  <td>6</td>
+                  <td>Computer Applications</td>
+                  <td>akhil.raj@example.com</td>
+                </tr>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Arjun Nair</h5>
-              <p>Admission No: ST105</p>
-              <p>Class: MCA 2</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+                <tr>
+                  <td>3</td>
+                  <td>STU103</td>
+                  <td>Neha Nair</td>
+                  <td>BSc Computer Science</td>
+                  <td>4</td>
+                  <td>Computer Science</td>
+                  <td>neha.nair@example.com</td>
+                </tr>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Sneha Thomas</h5>
-              <p>Admission No: ST106</p>
-              <p>Class: BCA 1</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+                <tr>
+                  <td>4</td>
+                  <td>STU104</td>
+                  <td>Rahul Krishna</td>
+                  <td>MCA</td>
+                  <td>2</td>
+                  <td>Computer Applications</td>
+                  <td>rahul.krishna@example.com</td>
+                </tr>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Aditya Sharma</h5>
-              <p>Admission No: ST107</p>
-              <p>Class: MCA 1</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+                <tr>
+                  <td>5</td>
+                  <td>STU105</td>
+                  <td>Anjali Menon</td>
+                  <td>B.Tech CSE</td>
+                  <td>8</td>
+                  <td>Computer Science</td>
+                  <td>anjali.menon@example.com</td>
+                </tr>
 
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Meera Joseph</h5>
-              <p>Admission No: ST108</p>
-              <p>Class: BCA 3</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+                <tr>
+                  <td>6</td>
+                  <td>STU106</td>
+                  <td>Aditya Sharma</td>
+                  <td>MSc Data Science</td>
+                  <td>3</td>
+                  <td>Data Science</td>
+                  <td>aditya.sharma@example.com</td>
+                </tr>
 
-      
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Farhan Ali</h5>
-              <p>Admission No: ST109</p>
-              <p>Class: MCA 2</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
-          </div>
-        </div>
+                <tr>
+                  <td>7</td>
+                  <td>STU107</td>
+                  <td>Sneha Thomas</td>
+                  <td>BCA</td>
+                  <td>5</td>
+                  <td>Computer Applications</td>
+                  <td>sneha.thomas@example.com</td>
+                </tr>
 
-      
-        <div className="col-md-3 col-sm-6 mb-4">
-          <div className="card text-center shadow">
-            <img src="https://via.placeholder.com/150" className="card-img-top" alt="Student" />
-            <div className="card-body">
-              <h5 className="card-title">Diya George</h5>
-              <p>Admission No: ST110</p>
-              <p>Class: MCA 1</p>
-              <button className="btn btn-primary">View Details</button>
-            </div>
+                <tr>
+                  <td>8</td>
+                  <td>STU108</td>
+                  <td>Arjun Nair</td>
+                  <td>MCA</td>
+                  <td>1</td>
+                  <td>Computer Applications</td>
+                  <td>arjun.nair@example.com</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
 
       </div>
-    </div>
     </div>
   );
 };
