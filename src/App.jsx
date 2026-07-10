@@ -24,7 +24,6 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/delete" element={<Delete />} />
           <Route path="/viewstud" element={<ViewStudents />} />
-          
 
         </Routes>
 

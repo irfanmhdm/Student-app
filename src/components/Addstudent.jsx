@@ -7,7 +7,7 @@ const Addstudent = () => {
 
       <Navbar />
 
-      <div className="container bg-info p-5 mt-3 rounded">
+      <div className="container bg-secondary p-5 mt-3 rounded">
         <div className="row">
           <div className="col-12">
 
